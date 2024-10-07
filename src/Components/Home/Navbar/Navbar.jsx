@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div className="navbar-container sm:text-center">
+    <div className="navbar-container ">
       <img 
         src="https://byteridge.com/wp-content/uploads/2023/11/Byteridge-logo.png"
         alt=" "
@@ -13,7 +13,7 @@ const Navbar = () => {
           <li>Knowledge center</li>
           <li>Careers</li>
           <li>About us</li>
-          <li>Contact us</li>
+          <li>Contact uss</li>
           
           <div className="logo">
             <img
