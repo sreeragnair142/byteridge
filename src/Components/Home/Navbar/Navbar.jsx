@@ -2,10 +2,11 @@ import React from "react";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div className="navbar-container ">
+    <div className="navbar-container flex items-center justify-between p-4 bg-white shadow-md ">
       <img 
         src="https://byteridge.com/wp-content/uploads/2023/11/Byteridge-logo.png"
-        alt=" "
+        alt=" Byteridge Logo"
+         className="h-10"
       />
       <ul className="navbar-menu">
         <div className="list">
