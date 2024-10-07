@@ -1,0 +1,40 @@
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://byteridge.com/wp-content/uploads/2023/12/BG-1.webp);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: 100;
+    font-size: 80px;
+    color: #f8dd6e;
+    padding-bottom: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 500px;
+}
+.cntnt{
+    font-size: 28px;
+     position: relative;
+    bottom: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+button{
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+    left: 0px;
+    border-radius: 0;
+    color: rgb(93, 93, 229);
+    width: 220px;
+    height: 80px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(117, 12, 12);
+  }
